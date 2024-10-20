@@ -1,0 +1,35 @@
+<p style="color: green"><%= notice %></p>
+
+<% content_for :title, "Tests" %>
+
+<h1>Tests</h1>
+
+<div id="tests">
+  <% 
+  if @tests
+    @tests.each do |test| %>
+      <%= render test %>
+      <p>
+        <%= link_to "Show this test", test %>
+      </p>
+  <% end 
+  end  %>
+</div>
+<%=distance_of_time_in_words(Time.current, 1234567.minutes.from_now, include_seconds: false)%>
+<%=datetime_select("article", "written_on", prompt: { day: 'Choose day', month: 'Choose month', year: 'Choose year' }) %>
+
+<p><%=strip_tags("Strip <i>these</i> tags!")%></p>
+
+<%= link_to "New test", new_test_path %>
+
+<%= form_with do |form| %>
+  Form contents
+<% end %>
+
+
+<%= form_with url: "/search", method: :post do |form| %>
+  <%= form.label :query, "Search for:" %>
+  <%= form.text_field :query %>
+  <%= form.submit "Search" %>
+<% end %>
+

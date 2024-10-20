@@ -1,2 +1,5 @@
 class Customer < ApplicationRecord
-end
+    has_many :orders
+    has_many :reviews
+  end
+  

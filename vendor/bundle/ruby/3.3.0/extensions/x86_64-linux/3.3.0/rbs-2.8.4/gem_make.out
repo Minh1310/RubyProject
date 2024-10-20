@@ -1,0 +1,27 @@
+current directory: /home/RubyProject/first_app/vendor/bundle/ruby/3.3.0/gems/rbs-2.8.4/ext/rbs_extension
+/home/minh1310/.rbenv/versions/3.3.5/bin/ruby extconf.rb
+checking for whether -std=gnu99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /home/RubyProject/first_app/vendor/bundle/ruby/3.3.0/gems/rbs-2.8.4/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20241024-73026-4q588l sitelibdir\=./.gem.20241024-73026-4q588l clean
+
+current directory: /home/RubyProject/first_app/vendor/bundle/ruby/3.3.0/gems/rbs-2.8.4/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20241024-73026-4q588l sitelibdir\=./.gem.20241024-73026-4q588l
+compiling constants.c
+compiling lexer.c
+compiling lexstate.c
+compiling location.c
+compiling main.c
+compiling parser.c
+compiling parserstate.c
+compiling ruby_objs.c
+compiling unescape.c
+linking shared-object rbs_extension.so
+
+current directory: /home/RubyProject/first_app/vendor/bundle/ruby/3.3.0/gems/rbs-2.8.4/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20241024-73026-4q588l sitelibdir\=./.gem.20241024-73026-4q588l install
+/usr/bin/install -c -m 0755 rbs_extension.so ./.gem.20241024-73026-4q588l
+
+current directory: /home/RubyProject/first_app/vendor/bundle/ruby/3.3.0/gems/rbs-2.8.4/ext/rbs_extension
+make DESTDIR\= sitearchdir\=./.gem.20241024-73026-4q588l sitelibdir\=./.gem.20241024-73026-4q588l clean
